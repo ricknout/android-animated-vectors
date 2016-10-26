@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_search">
+
+    <target
+        android:name="search_group"
+        android:animation="@animator/scale_reverse"/>
+
+    <target
+        android:name="search_vector"
+        android:animation="@animator/alpha_reverse"/>
+
+</animated-vector>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <objectAnimator
+        android:duration="@integer/anim_time_long"
+        android:propertyName="pathData"
+        android:valueFrom="@string/path_search"
+        android:valueTo="@string/path_google"
+        android:valueType="pathType"
+        android:interpolator="@android:interpolator/decelerate_cubic"/>
+
+    <objectAnimator
+        android:duration="@integer/anim_time_long"
+        android:propertyName="strokeWidth"
+        android:valueFrom="2"
+        android:valueTo="3"
+        android:interpolator="@android:interpolator/decelerate_cubic"/>
+
+</set>
